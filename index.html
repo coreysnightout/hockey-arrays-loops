@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/scripts.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Hockey Players</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hockey Goons I Hate</h1>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="formGroupExampleInput">Player you hate most:</label>
+          <input type="text" class="form-control" id="mostHated">
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Player you hate 2nd most:</label>
+          <input type="text" class="form-control" id="2ndHated">
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Player you hate least:</label>
+          <input type="text" class="form-control" id="leastHated">
+        </div>
+        <button type="submit" name="button" class="btn">Submit!</button>
+      </form>
+      <div class="output">
+        <ul>
+          <li class="mostHated"></li>
+          <li class="2ndHated"></li>
+          <li class="leastHated"></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
